@@ -1,0 +1,143 @@
+/* Media type (screen) and (min-width: 480px) */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+}
+
+.navbar-inverse {
+	border-radius: 0em;
+	background: #252233;
+}
+
+.container-fluid.cf1 {
+	background: #fff;
+}
+
+.row.no-gutter [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#wave {
+	float: left;
+	height: 50px;
+	margin: 0.3em 0em 0em 1em;
+	width: 75px;
+}
+
+h1 {
+	color: #000;
+	font-family: "Eras ITC", sans-serif; 
+	font-size: 2.8em;
+	font-weight: bold;
+	padding: 0em 0em 0.2em 0em;
+	text-shadow: -0.01em -0.01em 0.03em #252233;
+}
+
+h2 {
+	float: right;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: bold;
+	margin: 1.4em 0em 0.2em 0em;
+	padding: 0.5em 0.8em;
+}
+
+.container-fluid.cf2 {
+	border-bottom: 0.1em solid #fff;
+	display: flex;
+	height: 4.5em;
+}
+
+.collapse.navbar-collapse {
+	font-size: 1.4em;
+	padding: 0.35em;
+}
+
+.nav.navbar-nav li.active a {
+	font-size: 0.9em;
+	border: 0.1em solid #fff;
+	border-bottom: 0em;
+	box-shadow: 0em 0em 0.8em #fff;
+	padding: 0.65em 1.6em;
+	text-shadow: -0.01em -0.01em 0.02em #fff;
+}
+
+.nav.navbar-nav li.not-active a {
+	border: 0.01em solid #555;
+	border-bottom: 0em;
+	font-size: 0.9em;
+	padding: 0.65em 1.6em;
+}
+
+.nav.navbar-nav li.dropdown a {
+	border: 0.01em solid #555;
+	border-bottom: 0em;
+	font-size: 0.9em;
+	padding: 0.65em 1.6em;
+}
+
+.nav.navbar-nav ul.dropdown-menu a {
+	border: 0em;
+}
+
+.background-wrap {
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#video-bg-elem {
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.content {
+	height: 86%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.content h1 {
+	color: #fff;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 0.5em 0.5em;
+	text-align: left;
+}
+
+.content p {
+	color: #aaa;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 0em 1em;
+	text-align: left;
+}
+
+footer {
+	bottom:0.8em;
+	color: #fff;
+	font-size: 1.1em;
+	height: 45px;
+	left:0px;
+	padding: 0em 0em 0em 0.7em;
+	position:fixed;
+	width:100%;
+}
+
+footer em {
+	font-size: 1.2em;
+	padding: 0em 0.2em 0em 0em; 
+}
+
+
+

@@ -1,0 +1,3 @@
+/* Import of a CSS stylesheet by width specification */
+@import url("home.css") screen and (min-width: 480px);
+@import url("home_small.css") screen and (max-width: 480px);
